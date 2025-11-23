@@ -8,3 +8,5 @@ def is_empty(seq): return not seq
 
 def chunk(items, size):
 
+        yield items[i:i+size]
+
