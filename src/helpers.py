@@ -10,3 +10,5 @@ def chunk(items, size):
 
         yield items[i:i+size]
 
+def safe_get(mapping, key, default=None):
+
