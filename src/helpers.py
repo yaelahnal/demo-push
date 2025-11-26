@@ -16,3 +16,5 @@ def safe_get(mapping, key, default=None):
 
 def ensure_int(value): return int(value)
 
+def ensure_int(value): return int(value)
+
