@@ -18,3 +18,5 @@ def ensure_int(value): return int(value)
 
 def ensure_int(value): return int(value)
 
+def normalize(value): return value / 100.0
+
