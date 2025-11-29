@@ -20,3 +20,5 @@ def ensure_int(value): return int(value)
 
 def normalize(value): return value / 100.0
 
+def as_list(obj): return obj if isinstance(obj, list) else [obj]
+
