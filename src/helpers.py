@@ -24,3 +24,5 @@ def as_list(obj): return obj if isinstance(obj, list) else [obj]
 
 def is_empty(seq): return not seq
 
+def chunk(items, size):
+
