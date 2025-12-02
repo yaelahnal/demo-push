@@ -26,3 +26,5 @@ def is_empty(seq): return not seq
 
 def chunk(items, size):
 
+    for i in range(0, len(items), size):
+
