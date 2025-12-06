@@ -32,3 +32,5 @@ def chunk(items, size):
 
     return mapping.get(key, default)
 
+def ensure_int(value): return int(value)
+
