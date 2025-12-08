@@ -45,3 +45,6 @@ def ensure_int(value): return int(value)
 A playground for Git push practices.
 Experimenting with repository updates.
 
+
+def first_element(seq): return seq[0]
+
