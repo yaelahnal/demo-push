@@ -40,3 +40,4 @@ def ensure_int(value): return int(value)
 [auto-update]
 
 
+[auto] small helper update
