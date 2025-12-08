@@ -34,3 +34,6 @@ def chunk(items, size):
 
 def ensure_int(value): return int(value)
 
+[auto-update]
+
+
