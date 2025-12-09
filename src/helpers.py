@@ -48,3 +48,6 @@ Experimenting with repository updates.
 
 def first_element(seq): return seq[0]
 
+
+def get_last_element(seq): return seq[-1]
+
