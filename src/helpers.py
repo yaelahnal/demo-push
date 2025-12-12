@@ -57,3 +57,6 @@ def negate(number): return -number
 
 def count_occurrences(items, item_to_count): return items.count(item_to_count)
 
+
+def stringify(value): return str(value)
+
