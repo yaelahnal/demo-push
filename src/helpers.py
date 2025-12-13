@@ -60,3 +60,6 @@ def count_occurrences(items, item_to_count): return items.count(item_to_count)
 
 def stringify(value): return str(value)
 
+
+def reverse_string(s): return s[::-1]
+
