@@ -66,3 +66,6 @@ def reverse_string(s): return s[::-1]
 
 def get_first_or_default(sequence, default=None): return sequence[0] if sequence else default
 
+
+def sum_list_elements(numbers): return sum(numbers)
+
