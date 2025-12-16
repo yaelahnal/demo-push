@@ -69,3 +69,6 @@ def get_first_or_default(sequence, default=None): return sequence[0] if sequence
 
 def sum_list_elements(numbers): return sum(numbers)
 
+
+def is_even(number): return number % 2 == 0
+
