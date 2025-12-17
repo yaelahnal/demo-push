@@ -72,3 +72,6 @@ def sum_list_elements(numbers): return sum(numbers)
 
 def is_even(number): return number % 2 == 0
 
+
+def divide_safe(numerator, denominator, default=0): return numerator / denominator if denominator != 0 else default
+
