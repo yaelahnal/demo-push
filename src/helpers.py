@@ -78,3 +78,6 @@ def divide_safe(numerator, denominator, default=0): return numerator / denominat
 
 def get_value_at_index(sequence, index, default=None): return sequence[index] if index < len(sequence) else default
 
+
+def get_middle_element(seq): return seq[len(seq) // 2]
+
