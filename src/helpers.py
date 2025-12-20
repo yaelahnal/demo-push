@@ -81,3 +81,6 @@ def get_value_at_index(sequence, index, default=None): return sequence[index] if
 
 def get_middle_element(seq): return seq[len(seq) // 2]
 
+
+def get_random_element(seq): return seq[random.randint(0, len(seq) - 1)]
+
