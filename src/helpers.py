@@ -84,3 +84,7 @@ def get_middle_element(seq): return seq[len(seq) // 2]
 
 def get_random_element(seq): return seq[random.randint(0, len(seq) - 1)]
 
+
+import random
+def get_random_element(seq): return seq[random.randint(0, len(seq) - 1)]
+
