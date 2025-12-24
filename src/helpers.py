@@ -91,3 +91,6 @@ def get_random_element(seq): return seq[random.randint(0, len(seq) - 1)]
 
 def find_max_in_list(numbers): return max(numbers)
 
+
+def unique_elements(items): return list(set(items))
+
