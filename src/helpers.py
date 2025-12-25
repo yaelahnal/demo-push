@@ -94,3 +94,6 @@ def find_max_in_list(numbers): return max(numbers)
 
 def unique_elements(items): return list(set(items))
 
+
+def is_odd(number): return number % 2 != 0
+
