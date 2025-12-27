@@ -103,3 +103,6 @@ def get_max_by_key(sequence, key_func): return max(sequence, key=key_func)
 
 def calculate_average(numbers): return sum(numbers) / len(numbers) if numbers else 0
 
+
+def find_min_in_list(numbers): return min(numbers)
+
