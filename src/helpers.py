@@ -106,3 +106,6 @@ def calculate_average(numbers): return sum(numbers) / len(numbers) if numbers el
 
 def find_min_in_list(numbers): return min(numbers)
 
+
+def capitalize_first_letter(s): return s.capitalize()
+
