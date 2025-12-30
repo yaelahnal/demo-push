@@ -109,3 +109,6 @@ def find_min_in_list(numbers): return min(numbers)
 
 def capitalize_first_letter(s): return s.capitalize()
 
+
+def remove_duplicates_and_sort(items): return sorted(list(set(items)))
+
