@@ -112,3 +112,6 @@ def capitalize_first_letter(s): return s.capitalize()
 
 def remove_duplicates_and_sort(items): return sorted(list(set(items)))
 
+
+def get_keys_from_dict(d): return list(d.keys())
+
