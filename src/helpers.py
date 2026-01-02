@@ -115,3 +115,6 @@ def remove_duplicates_and_sort(items): return sorted(list(set(items)))
 
 def get_keys_from_dict(d): return list(d.keys())
 
+
+def get_list_length(lst): return len(lst)
+
