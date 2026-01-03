@@ -118,3 +118,6 @@ def get_keys_from_dict(d): return list(d.keys())
 
 def get_list_length(lst): return len(lst)
 
+
+def get_file_extension(filename): return filename.split('.')[-1]
+
