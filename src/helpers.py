@@ -121,3 +121,6 @@ def get_list_length(lst): return len(lst)
 
 def get_file_extension(filename): return filename.split('.')[-1]
 
+
+def get_nested_value(data, keys, default=None): return reduce(lambda d, key: d.get(key, default) if isinstance(d, dict) else default, keys, data)
+
