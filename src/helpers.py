@@ -128,3 +128,6 @@ def get_nested_value(data, keys, default=None): return reduce(lambda d, key: d.g
 from functools import reduce
 def join_list_elements(items, separator=''): return separator.join(map(str, items))
 
+
+def filter_positive_numbers(numbers): return [n for n in numbers if n > 0]
+
