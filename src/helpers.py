@@ -131,3 +131,6 @@ def join_list_elements(items, separator=''): return separator.join(map(str, item
 
 def filter_positive_numbers(numbers): return [n for n in numbers if n > 0]
 
+
+def get_file_name(filepath): return filepath.split('/')[-1].split('\\')[-1]
+
