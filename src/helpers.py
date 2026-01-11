@@ -137,3 +137,6 @@ def get_file_name(filepath): return filepath.split('/')[-1].split('\\')[-1]
 
 def filter_even_numbers(numbers): return [n for n in numbers if n % 2 == 0]
 
+
+def get_dictionary_size(d): return len(d)
+
