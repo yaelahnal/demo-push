@@ -140,3 +140,6 @@ def filter_even_numbers(numbers): return [n for n in numbers if n % 2 == 0]
 
 def get_dictionary_size(d): return len(d)
 
+
+def swap_elements(sequence, index1, index2): sequence[index1], sequence[index2] = sequence[index2], sequence[index1]
+
