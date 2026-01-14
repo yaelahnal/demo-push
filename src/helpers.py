@@ -146,3 +146,6 @@ def swap_elements(sequence, index1, index2): sequence[index1], sequence[index2] 
 
 def create_range(start, stop, step=1): return list(range(start, stop, step))
 
+
+def get_last_n_elements(seq, n): return seq[-n:]
+
