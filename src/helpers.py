@@ -143,3 +143,6 @@ def get_dictionary_size(d): return len(d)
 
 def swap_elements(sequence, index1, index2): sequence[index1], sequence[index2] = sequence[index2], sequence[index1]
 
+
+def create_range(start, stop, step=1): return list(range(start, stop, step))
+
