@@ -149,3 +149,6 @@ def create_range(start, stop, step=1): return list(range(start, stop, step))
 
 def get_last_n_elements(seq, n): return seq[-n:]
 
+
+def find_first_occurrence(items, item_to_find): return items.index(item_to_find) if item_to_find in items else -1
+
