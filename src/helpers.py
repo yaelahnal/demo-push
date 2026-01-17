@@ -152,3 +152,6 @@ def get_last_n_elements(seq, n): return seq[-n:]
 
 def find_first_occurrence(items, item_to_find): return items.index(item_to_find) if item_to_find in items else -1
 
+
+def get_first_key(d): return next(iter(d))
+
