@@ -155,3 +155,6 @@ def find_first_occurrence(items, item_to_find): return items.index(item_to_find)
 
 def get_first_key(d): return next(iter(d))
 
+
+def get_unique_keys(dict_list): return list(set(key for d in dict_list for key in d))
+
