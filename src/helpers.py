@@ -158,3 +158,6 @@ def get_first_key(d): return next(iter(d))
 
 def get_unique_keys(dict_list): return list(set(key for d in dict_list for key in d))
 
+
+def is_power_of_two(n): return n > 0 and (n & (n - 1) == 0)
+
