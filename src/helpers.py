@@ -161,3 +161,6 @@ def get_unique_keys(dict_list): return list(set(key for d in dict_list for key i
 
 def is_power_of_two(n): return n > 0 and (n & (n - 1) == 0)
 
+
+def flatten_list(nested_list): return [item for sublist in nested_list for item in sublist]
+
