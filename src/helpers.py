@@ -164,3 +164,6 @@ def is_power_of_two(n): return n > 0 and (n & (n - 1) == 0)
 
 def flatten_list(nested_list): return [item for sublist in nested_list for item in sublist]
 
+
+def merge_dictionaries(dict1, dict2): return {**dict1, **dict2}
+
