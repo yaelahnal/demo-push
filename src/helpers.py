@@ -167,3 +167,6 @@ def flatten_list(nested_list): return [item for sublist in nested_list for item 
 
 def merge_dictionaries(dict1, dict2): return {**dict1, **dict2}
 
+
+def remove_empty_strings(string_list): return [s for s in string_list if s]
+
