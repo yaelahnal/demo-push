@@ -173,3 +173,6 @@ def remove_empty_strings(string_list): return [s for s in string_list if s]
 
 def is_prime(n): return n > 1 and all(n % i for i in range(2, int(n**0.5) + 1))
 
+
+def calculate_string_length(s): return len(s)
+
