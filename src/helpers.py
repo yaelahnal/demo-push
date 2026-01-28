@@ -176,3 +176,6 @@ def is_prime(n): return n > 1 and all(n % i for i in range(2, int(n**0.5) + 1))
 
 def calculate_string_length(s): return len(s)
 
+
+def has_duplicates(items): return len(items) != len(set(items))
+
