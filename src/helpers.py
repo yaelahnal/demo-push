@@ -179,3 +179,6 @@ def calculate_string_length(s): return len(s)
 
 def has_duplicates(items): return len(items) != len(set(items))
 
+
+def get_value_from_path(data, path, default=None): return reduce(lambda d, key: d.get(key, default) if isinstance(d, dict) else default, path.split('.'), data)
+
